@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;}
+html{ font-size: 62.5%; }
+.container{
+                width: 100%;
+                min-height: 100;
+                box-sizing: border-box;
+                overflow: hidden;
+          }
+.topnav {
+              background-color: #7c37fd;
+              display: flex;
+              align-items: center;
+        }
+.logo{ cursor: pointer; }
+.menu-icon{
+            width: 2.5rem;
+            cursor: pointer;
+            margin-left: 0.5rem;
+          }
+.left-logo{
+                /*width: 32.0rem;*/
+                width: 21.0rem;
+                margin-top: 23.0rem;
+                margin-left: 10.0rem;
+          }
+label.text{
+            color: white;
+            font-size: 4.0rem;
+            line-height: 8.0rem;
+            padding: 0 1.0rem;
+            font-weight: bold;
+          }
+.nav{
+        flex: 1;
+        text-align: right;
+    }
+.nav ul{  float: right;  }
+.nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 3.0rem;
+            line-height: 8.0rem;
+         }
+.nav ul li a{
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 1.5rem;
+            }
+.nav ul li a:hover{ color: #000; }
+.content{
+            width: 100%;
+            position: absolute;
+            top: 18%;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 2.0rem;
+        }
+.h{
+    background-color: black;
+    width: 12%; 
+    height: 0.3rem;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.5rem;
+  }
+.small-content{
+            width: 100%;
+            position: absolute;
+            top: 45%;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+.button1{
+        width: 13.0rem;
+        padding: 1.0rem 0;
+        text-align: center;
+        margin: 2.0rem 1.0rem;
+        border-radius: 2.5rem;
+        font-weight: bold;
+        border:0.2rem solid #000;
+        background: transparent;
+        color: #000;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+}
+.button1 span{
+        background: #000;
+        height: 100%;
+        width: 0;
+        border-radius: 2.5rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+}
+.button1:hover span{  width: 100%;  }
+.button1:hover{ border:none;color: white; }
+button{
+        width: 22.0rem;
+        padding: 1.0rem 0;
+        text-align: center;
+        margin: 2.0rem 1.0rem;
+        border-radius: 2.5rem;
+        font-weight: bold;
+        border:0.2rem solid #000;
+        background: transparent;
+        color: #000;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+}
+span{
+        background: #000;
+        height: 100%;
+        width: 0;
+        border-radius: 2.5rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+}
+button:hover span{  width: 100%;  }
+button:hover{ border:none;color: white; }
+h5{
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin-left: 15.0rem;
+}
+.ch{
+    background-color: black;
+    width: 13%; 
+    height: 0.2rem;
+    border: none;
+    margin-left: 15.0rem;
+    margin-top: 0.5rem;
+  }
+.box{
+        position: relative;
+        width: calc(30.0rem - 2.0rem);
+        height: calc(30.0rem - 2.0rem);
+        background: #e4caff;
+        float: left;
+        margin: 2.0rem;
+        box-sizing: border-box;
+        border-radius: 1.0rem;
+        margin-left: 16.5rem;
+}
+.cir{
+        background-color: #b56a6a;
+        margin-top: 1.5rem;
+        margin-left: 2.0rem;
+        width: 5.0rem;
+        height: 5.0rem;
+        border-radius: 5.0rem;
+}
+.et{ margin-left: 2.0rem; font-size:3.0rem; margin-top: 2.0rem;  font-weight: bold;}
+.tr{ margin-left: 2.0rem; font-size:1.5rem; margin-top: 2.5rem; }
+.val{ margin-left: 2.0rem; font-size:2.0rem; color: #7100e1; font-weight:bold; }
+.min{ margin-left: 2.0rem; font-size:1.0rem; margin-top: 3.0rem; }
+.max{ margin-left: 11.0rem; font-size:1.0rem; margin-top: -3.4rem; }
+.acc{ margin-left: 20.0rem; font-size:1.0rem; margin-top: -3.4rem; }
+.val2{ margin-left: 11.0rem; font-size:2.0rem; color: #7100e1; font-weight:bold; }
+.val3{ margin-left: 20.0rem; font-size:2.0rem; color: #7100e1; font-weight:bold; }
+.scir{
+        position: relative;
+        width: calc(12.0rem - 2.0rem);
+        height: calc(4.0rem - 2.0rem);
+        background: white;
+        float: left;
+        margin-top: -80%;
+        box-sizing: border-box;
+        border-radius: 5.0rem;
+        margin-left: 16.0rem;
+}
+.c{
+        position: relative;
+        width: calc(3.0rem - 2.0rem);
+        height: calc(3.0rem - 2.0rem);
+        background: #7100e1;
+        float: left;
+        box-sizing: border-box;
+        border-radius: 1.0rem;
+        margin-left: 60%;
+        margin-top: -78%;
+}
+.day{
+       margin-left: 15%;
+       margin-top: -6%;
+       text-decoration: none;
+       color: #7100e1;
+       font-weight: bold;
+       padding: 1.0rem 1.0rem;
+       border-radius: 2.5rem;
+}
+@media(max-width: 998px)
+{
+    html{ font-size: 55%; }
+}
+ @media(max-width: 768px)
+{
+    html{ font-size: 45%; }
+}
